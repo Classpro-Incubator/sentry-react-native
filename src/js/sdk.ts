@@ -20,9 +20,9 @@ const IGNORED_DEFAULT_INTEGRATIONS = [
   "TryCatch", // We don't need this
 ];
 const DEFAULT_OPTIONS: ReactNativeOptions = {
-  enableNative: true,
-  enableNativeCrashHandling: true,
-  enableNativeNagger: true,
+  enableNative: false,
+  enableNativeCrashHandling: false,
+  enableNativeNagger: false,
 };
 
 /**
